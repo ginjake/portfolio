@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ginjake - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="intro">
+            <div class="container">
+                <h1>自己紹介</h1>
+                <p class="profile">高校時代にゲーム制作にハマり、大学時代のバイトでWebページ制作を学ぶ。<br>
+                Webアプリやハードウェア、VRゲーム、アナログゲームなどモノ作りがとにかく好き。<br>
+                PHP(Laravel)、JavaScriptがメインだが、PythonやC++、Ruby、Unityなども必要があれば触る。<br>
+                趣味はVRと旅行、DJと音楽ゲーム。VRの楽しさを広めるため、開発だけではなく記事を書いたりイベントを開催している。</p>
+            </div>
+        </section>
+
+        <nav class="category-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#media">メディア出演</a></li>
+                    <li><a href="#web-apps">Web アプリ</a></li>
+                    <li><a href="#vr-games">VR・ゲーム</a></li>
+                    <li><a href="#hardware">ハードウェア</a></li>
+                    <li><a href="#articles">記事・執筆</a></li>
+                    <li><a href="#events">イベント</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="media" class="category-section">
+            <div class="container">
+                <h2>メディア出演</h2>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/クローズアップ現代.avif" alt="NHK クローズアップ現代">
+                        </div>
+                        <div class="work-content">
+                            <h3>NHK クローズアップ現代</h3>
+                            <p>「世界を席巻！生成AI 共存のために必要なことは？」<br>
+                            生成AIのクリーンな利用例として、友達の声を学習させてメタバースで遊ぶ様子を紹介しました。</p>
+                            <a href="https://www.nhk.jp/p/gendai/ts/R7Y6NGLJ6G/episode/te/9V5355JGJ6/" class="work-link">番組を見る</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/Ob5E7MQSxKQ?start=84" 
+                                    title="報道ステーション メタバース" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>報道ステーション</h3>
+                            <p>メタバース"2700時間超え滞在者"に聞く魅力・・・人間の五感を再現した未来も<br>
+                            アナウンサーの大越さんを自宅に招き、メタバース体験をしてもらいました。番組構成からスタッフ集め、許諾まで、VRパートの大部分を担当しました。</p>
+                        </div>
+                    </div>
+
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/-AjIGkHGJUg" 
+                                    title="メディア協力動画" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>バキバキビートII</h3>
+                            <p>関西の音楽番組「バキバキビートII」にて映像の提供と編集を行いました。クラブイベントの紹介映像を番組用に編集し、協力させていただきました。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="web-apps" class="category-section">
+            <div class="container">
+                <h2>Web アプリケーション</h2>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/作業時間記録アプリ.jpg" alt="作業時間記録アプリ">
+                        </div>
+                        <div class="work-content">
+                            <h3>作業時間記録アプリ</h3>
+                            <p>Rails + Nuxt3 + Pythonで作成した業務管理アプリです。各案件の作業時間を記録し、グラフやExcelでコストパフォーマンスを可視化できます。</p>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/both欲しいモノ管理.jpg" alt="booth欲しいモノ管理">
+                        </div>
+                        <div class="work-content">
+                            <h3>booth欲しいモノ管理</h3>
+                            <p>BOOTHにギフト機能が追加された当時、「欲しいモノ」を記録・公開する機能がなかったため作成しました。Laravelを使って2日で完成させました。</p>
+                            <a href="https://www.ginjake.net/" class="work-link">サイトはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/おしまい畑と世界の種.jpg" alt="おしまい畑と世界の種">
+                        </div>
+                        <div class="work-content">
+                            <h3>おしまい畑と世界の種</h3>
+                            <p>友人たちと制作したアナログゲームです。ゲームルールの基本設計やWebサイトの制作を担当しました。</p>
+                            <a href="https://ginjake.net/hp/oshimai/" class="work-link">サイトはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vr-games" class="category-section">
+            <div class="container">
+                <h2>VR・ゲーム</h2>
+                <div class="work-grid">
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/IacJLFC0dRI" 
+                                    title="Nexus Conquest - 拠点制圧型VRFPS" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>Nexus Conquest</h3>
+                            <p>Resonite内で遊べるマルチ対戦シューティングです。ディレクターと様々な雑務を担当しました。</p>
+                        </div>
+                    </div>
+
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/e2fsEzueZ0A" 
+                                    title="Resonite用ドット絵アバター「フローネ」" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>Resonite用ドット絵アバター「フローネ」</h3>
+                            <p>Resoniteで無料で使えるドット絵のアバターです。基本的なギミックと、ドット絵イラストを担当しました。</p>
+                        </div>
+                    </div>
+
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/gAoP9BHO81Y?start=2" 
+                                    title="他人の作品で勝手にCM選手権" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>他人の作品で勝手にCM選手権</h3>
+                            <p>応募作品に観客がテーマをつけてCMを作るイベント。「※」「爆発と革命が起こす新時代のまくら」というテーマで、株式会社ROOXさんのV睡まくら「ぶいすいーと」のCM動画を制作しました。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hardware" class="category-section">
+            <div class="container">
+                <h2>ハードウェア</h2>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/真の静電容量を作る.png" alt="真の静電容量を作る本">
+                        </div>
+                        <div class="work-content">
+                            <h3>真の静電容量を作る本</h3>
+                            <p>静電容量無接点方式の自作ノウハウを解説した自作キーボードの技術本です。ニッチながら500部以上売れたベストセラーとなりました。</p>
+                            <a href="https://akiba-pc.watch.impress.co.jp/docs/wakiba/find/1306227.html" class="work-link">紹介記事</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/ここから始める自作キーボード.webp" alt="ここからはじめる自作キーボード">
+                        </div>
+                        <div class="work-content">
+                            <h3>ここからはじめる自作キーボード</h3>
+                            <p>はんだ付けから解説した自作キーボードのHowTo本とキットのセットです。ハードウェアとして1000本以上売れ、コミュニティの発展に貢献できました。</p>
+                            <a href="https://shop.yushakobo.jp/products/a0900kj-00-1" class="work-link">販売ページ</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/自作VJコントローラー.jpg" alt="自作VJコントローラー＆ソフトウェア">
+                        </div>
+                        <div class="work-content">
+                            <h3>自作VJコントローラー＆ソフトウェア</h3>
+                            <p>元々スマホ音楽ゲーム用として作成しましたが、サービス終了後にVJコントローラーとして改造したデバイスです。ハードウェアはQMK、ソフトウェアはElectron製です。</p>
+                            <div class="work-links">
+                                <a href="https://github.com/ginjake/qmk_firmware/tree/ec_helix_niz/keyboards/handwired/lovelive9" class="work-link">ハードウェア</a>
+                                <a href="https://github.com/ginjake/ginjake-mixdeck" class="work-link">ソフトウェア</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles" class="category-section">
+            <div class="container">
+                <h2>記事・執筆</h2>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-content">
+                            <h3>本当のメタバースについて知ってほしい。</h3>
+                            <p>「メタバース」がバズワードとなり投機対象化されることに耐えきれず、住民目線から感情のままに書いた記事です。2日連続でQiitaデイリー1位を獲得しました。</p>
+                            <a href="https://qiita.com/sirojake/items/1370a576fc2de4798362" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-content">
+                            <h3>マサコの知らない自作キーボードの世界</h3>
+                            <p>自作キーボード黎明期に書いた記事です。電子工作初心者として新しい世界に感動し、その魅力を記事にしました。Qiitaデイリー2位を獲得しました。</p>
+                            <a href="https://qiita.com/sirojake/items/8c60148c03c248fc6a6e" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-content">
+                            <h3>JavaScriptのsetTimeoutが即実行されてハマった</h3>
+                            <p>2018年に自分用のメモで書いた記事です。古い内容ではありますが、自分自身の記事に何度か助けられたことがありました。</p>
+                            <a href="https://qiita.com/sirojake/items/26618081bbb33e918aa4" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-content">
+                            <h3>Resoniteのはじめかた</h3>
+                            <p>VRプラットフォーム「Resonite」のはじめかたについて書いた記事です。</p>
+                            <a href="https://note.com/sirojake/n/n849febb76f26" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-content">
+                            <h3>NeosVRからResoniteへ</h3>
+                            <p>メタバースNeosVRからResoniteへの移行過程を書いた記事です。調査・取材から草案作成、AI校正、人間による修正まで、本格的にAIを活用した執筆の記録です。</p>
+                            <a href="https://note.com/sirojake/n/n676bc0d78e28" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="events" class="category-section">
+            <div class="container">
+                <h2>イベント・活動</h2>
+                <div class="work-grid">
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/早稲田実業科学部でVR体験会をしてきました.webp" alt="早稲田実業科学部でVR体験会">
+                        </div>
+                        <div class="work-content">
+                            <h3>早稲田実業科学部でVR体験会をしてきました</h3>
+                            <p>母校でVR体験会をしてきた時の様子です。日本の将来を担う子達に、少しでもいろんな体験をしてもらえればという気持ちで開催しました。</p>
+                            <a href="https://note.com/sirojake/n/nb43be8158543" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card video-card">
+                        <div class="work-thumbnail video-thumbnail">
+                            <iframe src="https://www.youtube.com/embed/_l1ivJG7XFA" 
+                                    title="桜逢祭 -Dual Stack-" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="work-content">
+                            <h3>桜逢祭 -Dual Stack-</h3>
+                            <p>奥多摩の廃校で開催されるDJイベント「桜逢祭」にて、リアルとVRを繋げた新時代のイベントを企画しました。「Resonite」「VRChat」「cluster」「リアル」の4つの世界が交わる前代未聞の試みです。</p>
+                            <a href="https://note.com/sirojake/n/n41c389810023" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+
+                    <div class="work-card">
+                        <div class="work-thumbnail">
+                            <img src="toAI/専門家が解説するAI.avif" alt="専門家が解説するAI">
+                        </div>
+                        <div class="work-content">
+                            <h3>専門家が解説するAI</h3>
+                            <p>AIの特徴から原理、法的側面まで、異なる専門分野の視点からAIを学ぶオンライン勉強会を企画・開催しました。弁護士とAI開発者をお招きし、技術と法律の両面から最新のAI動向を解説していただきました。</p>
+                            <a href="https://cluster.mu/e/24031f02-8a10-4204-addb-9ee431349b06" class="work-link">詳しくはこちら</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
